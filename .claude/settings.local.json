@@ -3,7 +3,11 @@
     "allow": [
       "Bash(dir:*)",
       "Bash(git config:*)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(git push)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd comprehensive README documentation\n\n- Installation instructions\n- Input/output data structure\n- CLI usage examples\n- How it works explanation\n- Python API example\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(pip install:*)"
     ]
   }
 }
